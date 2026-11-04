@@ -21,6 +21,7 @@ sql-data-warehouse-project/
 │   ├── silver/             cleans and prepares the data
 │   └── gold/               builds the tables for analysis
 └── 04_tests/               checks the quality of the silver and gold data
+
 The project reads the six files from C:\sql\dwh_project\01_datasets\. Put the folder there, or change the six paths in 03_scripts/bronze/proc_load_bronze.sql. The videos show the folders without numbers: datasets there is 01_datasets here, scripts is 03_scripts.
 🏗️ Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
